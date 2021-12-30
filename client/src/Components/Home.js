@@ -37,7 +37,7 @@ const Home = ({component : Component, roles, ...rest}) => {
                             You are logged in as an {user.role}
                         </h2>
                         <h3>
-                            Click below to manage employees..!!
+                            Click below to manage employees(only for admins)!
                         </h3>
                         <Link to = '/employee'>
                             <StyledButton>
